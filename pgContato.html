@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Agência de Viagens</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="pgHome.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pgDestino.html">Destino</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pgPromocoes.html">Promoções</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="pgContato.html">Contato <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    
+    <div class="container mt-5">
+        <h1>Entre em Contato</h1>
+        <p>Se tiver alguma dúvida ou quiser obter mais informações sobre nossos serviços, não hesite em entrar em contato conosco. Nossa equipe está pronta para atendê-lo!</p>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Informações de Contato</h3>
+                <p><strong>Telefone:</strong> (XX) 1234-5678</p>
+                <p><strong>Email:</strong> contato@agenciadeviagens.com</p>
+                <p><strong>Endereço:</strong> Av. Exemplo, 123 - Bairro - Cidade</p>
+            </div>
+            <div class="col-md-6">
+                <h3>Formulário de Contato</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" class="form-control" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea class="form-control" id="mensagem" name="mensagem" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    
+    <footer class="bg-primary text-white text-center py-3">
+        <p>Todos os direitos reservados &copy; Agência de Viagens</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
